@@ -3,10 +3,10 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  display: flex; /* Change to flex for better control */
+  display: flex;
   flex-direction: column;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 .container {
@@ -62,28 +62,28 @@ a {
 
 @media (max-width: 640px) {
   .container {
-    width: 100%; /* Makes the container flexible for smaller screens */
+    width: 100%;
     padding: 10px;
     align-items: center;
     box-shadow: none;
   }
 
   input {
-    width: 100%; /* Full width for input on small screens */
-    padding: 12px 10px; /* Adjust padding for better touch interaction */
+    width: 100%;
+    padding: 12px 10px;
   }
 
   .get {
-    width: 50%; /* Full width for button */
-    padding: 12px 10px; /* Increase padding for easier tap */
+    width: 50%;
+    padding: 12px 10px;
   }
 
   h1 {
-    font-size: 1.5rem; /* Slightly smaller heading for mobile */
+    font-size: 1.5rem;
   }
 
   .info {
-    font-size: 1rem; /* Adjust font size for better readability */
+    font-size: 1rem;
     margin: 0.7rem 0;
     padding: 0 10px;
   }
