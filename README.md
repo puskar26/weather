@@ -4,7 +4,8 @@ This is a simple weather forecast application that uses the **Fetch API** to get
 
 ## Screenshot
 
-![App Screenshot](./images/weather-data.png)
+![App Screenshot](./images/interface.png)
+![App Screenshot](./images/result.png)
 
 ## Features
 
@@ -65,14 +66,15 @@ Wind: 7 km/h
 ## Project Structure
 
 ```
-weather-forecast/
+weather/
 ├── index.html
 ├── style.css
-├── styles.js
+├── script.js
 ├── README.md
 ├── code.md
-└── images/
-    └── weather-data.png
+├── images/
+└── favicons/
+
 ```
 
 ## Technologies Used
